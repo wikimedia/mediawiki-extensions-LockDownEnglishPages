@@ -22,7 +22,7 @@ $wgExtensionCredits['other'][] = array(
 	'version' => '0.1',
 	'author' => 'Jack Phoenix',
 	'description' => 'Prevents non-staff users from editing the English interface messages',
-	'url' => 'http://www.mediawiki.org/wiki/Extension:LockDownEnglishPages',
+	'url' => 'https://www.mediawiki.org/wiki/Extension:LockDownEnglishPages',
 );
 
 $wgHooks['userCan'][] = 'wfLockDownEnglishPages';
