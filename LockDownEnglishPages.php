@@ -21,11 +21,14 @@ $wgExtensionCredits['other'][] = array(
 	'name' => 'Lock Down English Pages',
 	'version' => '0.1',
 	'author' => 'Jack Phoenix',
-	'description' => 'Prevents non-staff users from editing the English interface messages',
+	'descriptionmsg' => 'lockdownenglishpages-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:LockDownEnglishPages',
 );
 
+$wgMessagesDirs['LockDownEnglishPages'] = __DIR__ . '/i18n';
+
 $wgHooks['userCan'][] = 'wfLockDownEnglishPages';
+
 function wfLockDownEnglishPages( &$title, &$user, $action, &$result ) {
 	// We want to prevent editing of MediaWiki pages for users who have the
 	// editinterface right but who are not staff when the action is 'edit'
