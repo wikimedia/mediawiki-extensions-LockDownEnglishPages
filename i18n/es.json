@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Macofe"
+			"Macofe",
+			"Fitoschido"
 		]
 	},
-	"lockdownenglishpages-desc": "Evita que los usuarios que no pertezcan al personal editen los mensajes de la interfaz en inglés"
+	"lockdownenglishpages-desc": "Evita que los usuarios que no pertenezcan al personal editen los mensajes de la interfaz en inglés"
 }
