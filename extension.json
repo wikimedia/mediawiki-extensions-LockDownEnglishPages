@@ -1,0 +1,22 @@
+{
+	"name": "LockDownEnglishPages",
+	"version": "0.2.0",
+	"authors": [
+		"Jack Phoenix"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:LockDownEnglishPages",
+	"descriptionmsg": "lockdownenglishpages-desc",
+	"type": "other",
+	"MessagesDirs": {
+		"LockDownEnglishPages": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"LockDownEnglishPages": "LockDownEnglishPages.class.php"
+	},
+	"Hooks": {
+		"userCan": "LockDownEnglishPages::onUserCan"
+	},
+	"manifest_version": 1
+}
