@@ -1,7 +1,7 @@
 {
 	"name": "LockDownEnglishPages",
 	"version": "0.2.0",
-	"authors": [
+	"author": [
 		"Jack Phoenix"
 	],
 	"url": "https://www.mediawiki.org/wiki/Extension:LockDownEnglishPages",
