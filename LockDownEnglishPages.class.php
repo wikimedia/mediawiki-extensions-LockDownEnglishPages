@@ -7,7 +7,7 @@
  * @ingroup Extensions
  * @version 0.2.0
  * @date 6 July 2011
- * @author Jack Phoenix <jack@countervandalism.net>
+ * @author Jack Phoenix
  * @license http://en.wikipedia.org/wiki/Public_domain Public domain
  */
 
