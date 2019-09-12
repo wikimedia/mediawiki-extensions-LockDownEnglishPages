@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Railfail536"
+			"Railfail536",
+			"Rail"
 		]
 	},
 	"lockdownenglishpages-desc": "Zapobiega edytowaniu angielskich komunikatów MediaWiki przez użytkowników nie będących członkami personelu"
