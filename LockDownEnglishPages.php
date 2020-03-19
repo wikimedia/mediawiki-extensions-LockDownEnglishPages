@@ -13,6 +13,14 @@
 
 class LockDownEnglishPages {
 
+	/**
+	 * @param Title &$title
+	 * @param User &$user
+	 * @param string $action
+	 * @param array|IApiMessage &$result
+	 *
+	 * @return bool
+	 */
 	public static function onUserCan( &$title, &$user, $action, &$result ) {
 		// We want to prevent editing of MediaWiki pages for users who have the
 		// editinterface right but who are not staff when the action is 'edit'
@@ -21,14 +29,12 @@ class LockDownEnglishPages {
 			$user->isAllowed( 'editinterface' ) &&
 			!in_array( 'staff', $user->getEffectiveGroups() ) &&
 			$action == 'edit'
-		)
-		{
+		) {
 			$pageTitle = $title->getDBkey();
 			if (
 				preg_match( '/\/en/', $pageTitle ) || // page title has /en in it
 				!preg_match( '/\//', $pageTitle ) // page title has no / in it
-			)
-			{
+			) {
 				$result = false;
 				return false;
 			}
