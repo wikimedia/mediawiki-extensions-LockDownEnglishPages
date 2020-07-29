@@ -5,11 +5,13 @@
  *
  * @file
  * @ingroup Extensions
- * @version 0.2.0
- * @date 6 July 2011
+ * @version 0.3.0
+ * @date 30 July 2020
  * @author Jack Phoenix
  * @license http://en.wikipedia.org/wiki/Public_domain Public domain
  */
+
+use MediaWiki\MediaWikiServices;
 
 class LockDownEnglishPages {
 
@@ -22,11 +24,12 @@ class LockDownEnglishPages {
 	 * @return bool
 	 */
 	public static function onUserCan( &$title, &$user, $action, &$result ) {
+		$pm = MediaWikiServices::getInstance()->getPermissionManager();
 		// We want to prevent editing of MediaWiki pages for users who have the
 		// editinterface right but who are not staff when the action is 'edit'
 		if (
 			$title->getNamespace() == NS_MEDIAWIKI &&
-			$user->isAllowed( 'editinterface' ) &&
+			$pm->userHasRight( $user, 'editinterface' ) &&
 			!in_array( 'staff', $user->getEffectiveGroups() ) &&
 			$action == 'edit'
 		) {
