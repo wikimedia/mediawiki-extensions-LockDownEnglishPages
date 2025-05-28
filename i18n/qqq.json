@@ -2,5 +2,6 @@
 	"@metadata": {
 		"authors": []
 	},
-	"lockdownenglishpages-desc": "{{desc|what=extension|name=LockDownEnglishPages|url=https://www.mediawiki.org/wiki/Extension:LockDownEnglishPages}}"
+	"lockdownenglishpages-desc": "{{desc|what=extension|name=LockDownEnglishPages|url=https://www.mediawiki.org/wiki/Extension:LockDownEnglishPages}}",
+	"lockdownenglishpages-error-not-staff": "Error message shown to the user when they have the <code>editinterface</code> user right but they are not a member of the staff user group and thus are unable to edit the English interface messages"
 }

@@ -1,6 +1,6 @@
 {
 	"name": "LockDownEnglishPages",
-	"version": "0.3.1",
+	"version": "0.4",
 	"author": [
 		"Jack Phoenix"
 	],
@@ -8,7 +8,7 @@
 	"descriptionmsg": "lockdownenglishpages-desc",
 	"type": "other",
 	"requires": {
-		"MediaWiki": ">= 1.35.0"
+		"MediaWiki": ">= 1.39.0"
 	},
 	"MessagesDirs": {
 		"LockDownEnglishPages": [
@@ -28,7 +28,7 @@
 		}
 	},
 	"Hooks": {
-		"userCan": "default"
+		"getUserPermissionsErrors": "default"
 	},
-	"manifest_version": 1
+	"manifest_version": 2
 }
