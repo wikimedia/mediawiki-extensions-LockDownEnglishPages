@@ -5,17 +5,17 @@
  *
  * @file
  * @ingroup Extensions
- * @version 0.3.1
- * @date 29 June 2021
+ * @version 0.4
+ * @date 29 May 2025
  * @author Jack Phoenix
  * @license http://en.wikipedia.org/wiki/Public_domain Public domain
  */
 
-use MediaWiki\Permissions\Hook\UserCanHook;
+use MediaWiki\Permissions\Hook\GetUserPermissionsErrorsHook;
 use MediaWiki\Permissions\PermissionManager;
 use MediaWiki\User\UserGroupManager;
 
-class LockDownEnglishPages implements UserCanHook {
+class LockDownEnglishPages implements GetUserPermissionsErrorsHook {
 	/**
 	 * @var UserGroupManager
 	 */
@@ -43,7 +43,7 @@ class LockDownEnglishPages implements UserCanHook {
 	 *
 	 * @return bool
 	 */
-	public function onUserCan( $title, $user, $action, &$result ) {
+	public function onGetUserPermissionsErrors( $title, $user, $action, &$result ) {
 		// We want to prevent editing of MediaWiki pages for users who have the
 		// editinterface right but who are not staff when the action is 'edit'
 		if (
@@ -57,7 +57,7 @@ class LockDownEnglishPages implements UserCanHook {
 				preg_match( '/\/en/', $pageTitle ) || // page title has /en in it
 				!preg_match( '/\//', $pageTitle ) // page title has no / in it
 			) {
-				$result = false;
+				$result = 'lockdownenglishpages-error-not-staff';
 				return false;
 			}
 		}

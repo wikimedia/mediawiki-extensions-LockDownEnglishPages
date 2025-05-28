@@ -2,5 +2,6 @@
 	"@metadata": {
 		"authors": []
 	},
-	"lockdownenglishpages-desc": "Prevents non-staff users from editing the English interface messages"
+	"lockdownenglishpages-desc": "Prevents non-staff users from editing the English interface messages",
+	"lockdownenglishpages-error-not-staff": "You are not staff, hence you can't edit the English source interface messages."
 }
