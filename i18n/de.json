@@ -4,5 +4,6 @@
 			"Metalhead64"
 		]
 	},
-	"lockdownenglishpages-desc": "Hindert Nicht-Mitarbeiter daran, die englischsprachigen Benutzeroberflächennachrichten zu bearbeiten."
+	"lockdownenglishpages-desc": "Hindert Nicht-Mitarbeiter daran, die englischsprachigen Benutzeroberflächennachrichten zu bearbeiten.",
+	"lockdownenglishpages-error-not-staff": "Du bist kein Mitarbeiter, daher kannst du die englischen Quellinterface-Nachrichten nicht bearbeiten."
 }
