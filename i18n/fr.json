@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"EmDashUser002",
 			"Gomoko"
 		]
 	},
-	"lockdownenglishpages-desc": "Empêche les utilisateurs ne faisant pas partie des employés de modifier les messages d’interface en anglais"
+	"lockdownenglishpages-desc": "Empêche les utilisateurs ne faisant pas partie des employés de modifier les messages d’interface en anglais",
+	"lockdownenglishpages-error-not-staff": "Vous n'êtes pas membre du personnel, vous ne pouvez donc pas modifier les messages de l'interface source en anglais."
 }
