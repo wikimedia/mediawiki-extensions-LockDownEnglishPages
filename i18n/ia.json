@@ -4,5 +4,6 @@
 			"McDutchie"
 		]
 	},
-	"lockdownenglishpages-desc": "Evita que usatores que non pertine al personal modifica le messages de interfacie in anglese"
+	"lockdownenglishpages-desc": "Evita que usatores que non pertine al personal modifica le messages de interfacie in anglese",
+	"lockdownenglishpages-error-not-staff": "Tu non es membro del personal, ergo tu non pote modificar le messages de interfacie fonte in anglese."
 }
