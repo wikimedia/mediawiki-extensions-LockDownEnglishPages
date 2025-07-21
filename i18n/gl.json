@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Elisardojm"
+			"Elisardojm",
+			"Toliño"
 		]
 	},
-	"lockdownenglishpages-desc": "Evita que os usuarios que non pertenzan ó persoal do equipo editen as mensaxes da interface en inglés"
+	"lockdownenglishpages-desc": "Evita que os usuarios que non pertenzan ó persoal editen as mensaxes da interface en inglés"
 }
