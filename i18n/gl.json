@@ -5,5 +5,6 @@
 			"Toliño"
 		]
 	},
-	"lockdownenglishpages-desc": "Evita que os usuarios que non pertenzan ó persoal editen as mensaxes da interface en inglés"
+	"lockdownenglishpages-desc": "Evita que os usuarios que non pertenzan ó persoal editen as mensaxes da interface en inglés",
+	"lockdownenglishpages-error-not-staff": "Non es membro do persoal, así que non podes editar as mensaxes da interface en inglés."
 }

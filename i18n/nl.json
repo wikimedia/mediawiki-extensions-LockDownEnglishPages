@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mainframe98"
+			"Mainframe98",
+			"McDutchie"
 		]
 	},
-	"lockdownenglishpages-desc": "Voorkomt dat niet-stafleden de Engelstalige interfaceberichten kunnen bewerken"
+	"lockdownenglishpages-desc": "Voorkomt dat niet-stafleden de Engelstalige interfaceberichten kunnen bewerken",
+	"lockdownenglishpages-error-not-staff": "U bent geen personeelslid en kunt de bronberichten van de Engelse interface daarom niet bewerken."
 }

@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"ديفيد"
+			"ديفيد",
+			"Mohammed Qays"
 		]
 	},
-	"lockdownenglishpages-desc": "يمنع المستخدمين غير الموظفين من تحرير رسائل الواجهة الإنجليزية"
+	"lockdownenglishpages-desc": "يمنع المستخدمين غير الموظفين من تحرير رسائل الواجهة الإنجليزية",
+	"lockdownenglishpages-error-not-staff": "أنت لست موظفًا، وبالتالي لا يمكنك تعديل رسائل واجهة المصدر باللغة الإنجليزية."
 }

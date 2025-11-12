@@ -4,5 +4,6 @@
 			"Kly"
 		]
 	},
-	"lockdownenglishpages-desc": "防止非工作人員使用者編輯英語介面訊息"
+	"lockdownenglishpages-desc": "防止非工作人員使用者編輯英語介面訊息",
+	"lockdownenglishpages-error-not-staff": "您不是工作人員，因此您無法編輯英文來源介面訊息。"
 }
