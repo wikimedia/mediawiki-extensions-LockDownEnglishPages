@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Red Winged Duck"
+			"Red Winged Duck",
+			"Ucukor"
 		]
 	},
-	"lockdownenglishpages-desc": "Забараняе ўдзельнікам без адпаведных правоў рэдагаваць ангельскамоўныя паведамленьні інтэрфэйсу"
+	"lockdownenglishpages-desc": "Забараняе ўдзельнікам без адпаведных правоў рэдагаваць ангельскамоўныя радкі інтэрфэйсу"
 }
