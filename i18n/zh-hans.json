@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Peterxy12"
 		]
 	},
-	"lockdownenglishpages-desc": "阻止非职员用户编辑英语界面消息"
+	"lockdownenglishpages-desc": "阻止非职员用户编辑英语界面消息",
+	"lockdownenglishpages-error-not-staff": "您不是工作人员，因此您无法编辑英文来源界面信息。"
 }
