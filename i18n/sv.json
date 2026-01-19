@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Stefan2255"
+		]
+	},
+	"lockdownenglishpages-desc": "Förhindrar att icke-personal användare redigerar meddelandena i det engelska gränssnittet",
+	"lockdownenglishpages-error-not-staff": "Du är inte personal, därför kan du inte redigera meddelandena i det engelska källgränssnittet."
+}
