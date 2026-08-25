@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"lockdownenglishpages-desc": "Zabraňuje používateľom, ktorí nie sú členmi skupiny staff, upravovať anglické správy rozhrania"
+}
